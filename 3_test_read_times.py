@@ -27,7 +27,7 @@ def main():
     n_rep = 10 # Number of repititions for timer
 
     # Test each dataset, querying with (chrom, start end)
-    print('\n#\n# Querying with (chrom, start end)\n#\n')
+    print('\n#\n# Querying with (chrom, start, end)\n#\n')
     for dataset in glob(os.path.join(in_dir, '*')):
 
         name = os.path.split(dataset)[1]

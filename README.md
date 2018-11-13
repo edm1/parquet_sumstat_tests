@@ -11,7 +11,7 @@ Sorting/partitioning methods:
 
 ```
 #
-# Querying by (chrom, start end)
+# Querying by (chrom, start, end)
 #
 
 # chrom-pos-sort_no-partitioning
