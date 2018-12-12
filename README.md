@@ -12,9 +12,10 @@ Sorting/partitioning methods:
 ```
 bash setup.sh
 conda env create -n parquet_test --file environment.yaml
+source activate parquet_test
 ```
 
-## Output/results
+## Output/results from optimisation
 
 ```
 #
@@ -57,3 +58,5 @@ Time taken to do 10 iterations: 104.503 secs
 Number of rows read: 892038
 Time taken to do 10 iterations: 16.961 secs
 ```
+
+## Output/results from dask gcsfuse speed test
