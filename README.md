@@ -7,6 +7,13 @@ Sorting/partitioning methods:
 3. Sort by (pos) and write without partitioning on any columns
 4. Sort by (pos) and partition on chrom columns
 
+## Setup
+
+```
+bash setup.sh
+conda env create -n parquet_test --file environment.yaml
+```
+
 ## Output/results
 
 ```

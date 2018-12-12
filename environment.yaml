@@ -4,3 +4,6 @@ dependencies:
 - python=3
 - pandas
 - fastparquet
+- dask
+- python-snappy
+- gcsfs
