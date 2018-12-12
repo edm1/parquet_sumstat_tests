@@ -60,3 +60,25 @@ Time taken to do 10 iterations: 16.961 secs
 ```
 
 ## Output/results from dask gcsfuse speed test
+
+On Google compute instance
+```
+Testing local
+Number of rows read: 2135592
+Time taken per iteration (3): 5.920 secs
+
+Testing gcs
+Number of rows read: 2135592
+Time taken per iteration (3): 7.490 secs
+```
+
+On my mac (on EBI network)
+```
+Testing local
+Number of rows read: 2135592
+Time taken per iteration (3): 4.831 secs
+
+Testing gcs
+Number of rows read: 2135592
+Time taken per iteration (3): 14.255 secs
+```
